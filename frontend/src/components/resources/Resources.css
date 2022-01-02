@@ -1,0 +1,65 @@
+.res_content {
+    width: 800px;
+    height: 400px;
+    margin: 40px auto;
+}
+
+.res_content .res_content_box {
+    width: 800px;
+    height: 400px;
+    overflow-y: scroll;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.res_content .res_content_item {
+    width: 80%;
+    margin: 20px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 6px 16px 0px rgbargba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 6px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 6px 16px 0px rgba(0,0,0,0.75);
+    align-items: center;
+    padding: 14px 16px;
+    
+}
+
+.res_content .res_content_item button {
+    padding: 9px 26px;
+    margin-right: 8px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+form input {
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    height: 30px;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+form button {
+    padding: 10px 28px;
+    margin-top: 10px;
+}
+
+.dashboard {
+    float: right;
+    margin-right: 24px;
+}
+
+.no_resources {
+    width: 120px;
+    margin: 140px auto;
+    text-align: center;
+    color: #000;
+}

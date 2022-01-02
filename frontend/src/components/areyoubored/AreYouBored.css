@@ -1,0 +1,116 @@
+.areyoubored {
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+}
+
+.link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.link:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Zen Antique', serif;
+    padding-bottom: 15px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    position: relative;
+    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+  }
+
+.card p {
+    font-weight: 500;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.ayb_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    margin-left: 140px;
+    text-align: center;
+}
+
+.ayb_content {
+    box-shadow: 1px 6px 16px 0px rgbargba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 6px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 6px 16px 0px rgba(0,0,0,0.75);
+    padding: 40px 60px;
+    margin: 40px 0px;
+}
+
+.ayb_btn {
+    text-align: center;
+}
+
+.ayb_container .box {
+    height: 500px;
+    width: 500px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px 5px 15px;
+    box-shadow: 10px 10px 20px 0px rgb(0, 0, 0);
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.76);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.76);
+}
+
+.ayb_container .box .box_content {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+.btn_dashboard {
+    padding: 40px 40px;
+    margin-top: 80px;
+    text-align: right;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #5dbeff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 110, 255);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 110, 255);
+  }

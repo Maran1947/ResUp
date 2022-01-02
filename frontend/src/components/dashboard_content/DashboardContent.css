@@ -1,0 +1,119 @@
+.d_content {
+    /* border: 1px solid #000; */
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.d_content .d_resolution {
+    width: 500px;
+    height: 500px;
+    /* border: 1px solid red; */
+} 
+
+.d_content .d_resolution .d_res_yearly,
+.d_content .d_resolution .d_res_monthly {
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid blue;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.goal_box {
+    margin: 20px 0px;
+}
+
+.next_btn, .prev_btn {
+    margin: 4px 6px;
+}
+
+h4 {
+    width: 120px;
+    margin: 0px auto;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #fff;
+}
+
+.d_content .d_status {
+    width: 600px;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+
+.d_content .d_status .d_status_row {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    margin: 10px auto;
+}
+
+.d_total_activity, .d_total_resources {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.d_options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d_ayb_box, .d_resources_box {
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid red; */
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.btn_go {
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid blue;
+    margin-top: 10px;
+}
+
+.btn_go:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.modal_content {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(17, 0, 255);
+}
+
+.modal_top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.modal_content form {
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #000;
+}
+
+.modal_content form input {
+    border: 1px solid #000;
+    margin-right: 10px;
+}

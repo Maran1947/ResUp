@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+.hero_content {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+}
+
+.hero_content .hero_text {
+    max-width: 600px;
+}
+
+.hero_content .hero_text h2 {
+    color: #333;
+    font-size: 22px;
+    line-height: 1.4rem;
+    font-weight: 500;
+	margin-top: 128px;
+	line-height: 1.5rem;
+	color: #fff;
+    border: none;
+}
+
+.hero_content .hero_text h2 span {
+    display: block;
+    color: #003cff;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 2px;
+}
+
+.hero_content .hero_text p {
+    color: #333;
+	margin-top: 20px;
+	line-height: 1.4rem;
+	text-align: justify;
+}
+
+.hero_content .hero_text a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #e0fbff;
+    color: rgb(15, 82, 226);
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+body {
+	background: #00b4ff;
+}

@@ -1,0 +1,22 @@
+.d_header {
+    text-align: center;
+}
+
+.d_header h3 {
+    padding: 20px;
+}
+
+.d_header i {
+    font-size: 26px;
+    margin: 10px 0px 14px;
+    padding: 10px;
+}
+
+.d_header span {
+    font-weight: 500;
+}
+
+.author {
+    font-size: 14px;
+    font-weight: 400;
+}

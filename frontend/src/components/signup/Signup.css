@@ -1,0 +1,86 @@
+.signup_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #ffffff url('../../../public/assets/img_1.jpg') center center/cover no-repeat; */
+    background: linear-gradient(59deg, rgba(220,218,255,1) 0%, rgba(115,209,250,0.31726193895526966) 12%, rgba(164,226,255,0.6141807064622724) 19%, rgba(31,134,255,0.6225840678068102) 44%, rgba(140,216,228,0.8270658605238971) 79%);
+}
+
+.signup_container form {
+    width: 400px;
+    height: 500px;
+    padding: 40px 60px;
+    box-shadow: 1px 6px 16px 0px rgbargba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 6px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 6px 16px 0px rgba(0,0,0,0.75);
+}
+
+.signup_container h2 {
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(55, 85, 255, 0.699);
+}
+
+.signup_container form .form_rows {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.signup_container form label {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-left: 10px;
+} 
+
+.signup_container form input {
+    width: 100%;
+    margin-top: 1px;
+    height: 34px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(225, 237, 248);
+} 
+
+.signup_container form .form_btn_box {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.signup_container form button {
+    width: 100%;
+    background-color: rgba(55, 85, 255, 0.699);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding: 10px 32px;
+	text-decoration:none;
+    outline: none;
+    border: none;
+}
+.signup_container form button:hover {
+    background-color: rgb(26, 60, 250);
+}
+.signup_container form button:active {
+	position:relative;
+	top:1px;
+}
+
+.signup_container form span {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+}
